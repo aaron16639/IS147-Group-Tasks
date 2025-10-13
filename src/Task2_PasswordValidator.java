@@ -28,13 +28,13 @@ public class Task2_PasswordValidator {
 
     // Method to check password strength
     public static boolean isPassStrong(String password) {
-        if (password.length() < 8) {
-            return false;
-        }
-
         boolean hasDigit = false;
         boolean hasSpecialChar = false;
         String specialChars = "!@#$%^&*()_+-=[]{};':\"\\|,.<>/?";
+
+        if (password.length() < 8) {
+            return false;
+        }
 
         // Loop through each character
         for (int i = 0; i < password.length(); i++) {
