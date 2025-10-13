@@ -2,15 +2,15 @@ We have a password validator that prints out password requirements, asks the use
 
 Input Validation (isPassStrong)
 ----------------
-IF 
-  password length < 8
-    return FALSE
-FOR 
-  each character
-    IF character has a digit
-      hasDigit = TRUE
-    IF character has a special character
-      hasSpecialChar = TRUE
-IF hasDigit, hasSpecialChar TRUE
-  THEN return hasDigit and HasSpecialCharacter
+IF <br>
+  password length < 8 <br>
+    return FALSE <br>
+FOR <br>
+  each character <br>
+    IF character has a digit <br>
+      hasDigit = TRUE <br>
+    IF character has a special character <br>
+      hasSpecialChar = TRUE <br>
+IF hasDigit, hasSpecialChar TRUE <br>
+  THEN return hasDigit and HasSpecialCharacter <br>
   
