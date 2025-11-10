@@ -1,6 +1,6 @@
 We have a password validator that prints out password requirements, asks the user to input a password, and then performs input validation on the inputted password.
 
-Input Validation (isPassStrong)
+## Input Validation (isPasswordStrong)
 ----------------
 IF 
   password length < 8
