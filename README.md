@@ -14,6 +14,7 @@ FOR
 IF hasDigit, hasSpecialChar TRUE
   THEN return hasDigit and HasSpecialCharacter
 
+## Docker Deployment
 This project is containerized using Docker, and automatically built and pushed to Docker Hub via GitHub Actions.
 
 ## Project Structure
