@@ -13,4 +13,19 @@ FOR
       hasSpecialChar = TRUE
 IF hasDigit, hasSpecialChar TRUE
   THEN return hasDigit and HasSpecialCharacter
+
+This project is containerized using Docker, and automatically built and pushed to Docker Hub via GitHub Actions.
+
+## Project Structure
+```
+.
+├── .github/
+│   └── workflows/
+│       └── blank.yml          # GitHub Actions workflow
+├── src/
+│   ├── HelloWorld.java        # Main application
+│   └── Main.java
+├── Dockerfile                 # Docker configuration
+└── README.md
+```
   
